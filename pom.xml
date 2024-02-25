@@ -22,12 +22,23 @@
 			<artifactId>spring-boot-starter-webflux</artifactId>
 		</dependency>
 
-		<dependency>
+		<!--<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 			<optional>true</optional>
-		</dependency>
+		</dependency>-->
+		
+		<!--<dependency>
+    <groupId>org.webjars</groupId>
+    <artifactId>webjars-locator</artifactId>
+    <version>0.50</version>
+</dependency>
+		<dependency>
+    <groupId>io.github.classgraph</groupId>
+    <artifactId>classgraph</artifactId>
+    <version>4.8.165</version>
+</dependency>-->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
@@ -42,6 +53,16 @@
 			<groupId>io.projectreactor</groupId>
 			<artifactId>reactor-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-webflux-core</artifactId>
+			<version>1.4.6</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-webflux-ui</artifactId>
+			<version>1.4.6</version>
 		</dependency>
 	</dependencies>
 
